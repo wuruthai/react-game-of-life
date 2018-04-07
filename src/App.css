@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Plaster');
+
+body {
+  background-color: black;
+  font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+header {
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.flex-container {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 500px;
+  height: 500px;
+  margin: 10px auto auto;
+}
+
+.cell {
+  border: 1px solid black;
+  border-left: 0;
+  border-top: 0;
+  width: 10px;
+  height: 10px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: rgb(252, 205, 150);
+}
+
+.cell-live {
+  background-color: green;
+}
+
+.button-container {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  width: 500px;
+  justify-content: space-between;
+}
+
+.button-container button {
+  background-color: white;
+  font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.generator {
+  color: white;
+  background-color: black;
+  text-align: center;
+  font-family: 'Ubuntu Condensed', sans-serif;
+}

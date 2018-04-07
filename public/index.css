@@ -1,0 +1,39 @@
+body {
+  background-color: black;
+}
+
+.flex-container {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 500px;
+  height: 500px;
+  margin: auto;
+}
+
+.cell {
+  border: 1px solid black;
+  width: 10px;
+  height: 10px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: rgb(252, 205, 150);
+}
+
+.cell-live {
+  background-color: red;
+}
+
+.button-container {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  width: 500px;
+  justify-content: center;
+}
